@@ -15,7 +15,7 @@
 ```powershell
 cd week01
 py -3.13 -m venv .venv
-.\.venv\Scripts\python.exe -m pip install -r requirements.txt
+.\.venv\Scripts\python.exe -m pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
 .\.venv\Scripts\python.exe diabetes_explore.py
 .\.venv\Scripts\python.exe diabetes_explore.py --feature s3
 ```

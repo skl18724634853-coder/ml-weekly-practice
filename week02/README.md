@@ -15,7 +15,7 @@
 ```powershell
 cd week02
 py -3.13 -m venv .venv
-.\.venv\Scripts\python.exe -m pip install -r requirements.txt
+.\.venv\Scripts\python.exe -m pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
 .\.venv\Scripts\python.exe main.py
 ```
 
@@ -43,3 +43,9 @@ VS Code 打开项目文件夹后，选择装有依赖的解释器。本机已有
 | `results/test_predictions.csv` | 测试真实值、预测值、有符号和绝对误差 |
 
 终端抽查 5 条测试预测。未选定的梯度下降模型测试列留空，表示没有用于最终测试评价。
+
+## 本次结果
+
+学习率 0.1 下降更快，两种学习率最终损失接近。验证 RMSE 分别为 60.833519（0.01）与 60.833069（0.1）；程序选择后者，差异很小，不能据此宣称明显更好。
+选定模型测试 MAE 为 55.21、RMSE 为 67.04，均值基线分别为 66.73、76.91。库函数结果与选定模型接近。
+训练损失下降不保证新样本预测准确：抽查中真实值 283 的样本预测约 142.5，误差约 -140.5。
