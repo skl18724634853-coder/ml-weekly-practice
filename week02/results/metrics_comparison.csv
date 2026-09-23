@@ -1,0 +1,5 @@
+model,train_MAE,train_RMSE,val_MAE,val_RMSE,test_MAE,test_RMSE
+mean_baseline,64.66,77.33,67.52,76.16,66.73,76.91
+gd_lr_0.01,50.95,61.45,49.2,60.83,,
+gd_lr_0.1,50.95,61.45,49.21,60.83,55.21,67.04
+sklearn_lr,50.95,61.45,49.21,60.83,55.21,67.04
