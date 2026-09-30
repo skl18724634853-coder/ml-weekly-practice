@@ -1,0 +1,6 @@
+﻿model,train_MAE,train_RMSE,validation_MAE,validation_RMSE,test_MAE,test_RMSE,selected_ridge
+mean_baseline,64.657,77.331,67.516,76.161,66.729,76.906,
+single_feature_linear_regression,50.952,61.447,49.205,60.833,55.211,67.044,
+multifeature_linear_regression,44.287,54.285,38.221,49.15,46.724,56.97,
+ridge_alpha_1,44.303,54.297,38.294,49.203,46.794,57.083,yes
+ridge_alpha_100,45.745,55.44,40.503,50.815,,,
