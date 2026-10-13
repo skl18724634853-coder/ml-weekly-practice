@@ -1,0 +1,5 @@
+﻿model,pca_components,train_MAE,train_RMSE,validation_MAE,validation_RMSE,test_MAE,test_RMSE,selected_pca,display_name
+mean_baseline,,64.656518,77.330772,67.516166,76.161364,66.728853,76.905701,,Mean baseline
+full_10_feature_linear_regression,,44.287357,54.28493,38.221274,49.149692,46.724017,56.970268,,Full 10D LR
+pca_2_linear_regression,2,52.198275,62.806784,50.615134,61.518912,,,,PCA 2 + LR
+pca_5_linear_regression,5,45.725315,55.844209,38.989106,48.991682,46.902266,58.20808,yes,PCA 5 + LR

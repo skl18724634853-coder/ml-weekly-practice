@@ -7,6 +7,7 @@
 | 第一周 | diabetes 数据探索与可视化 | [week01](week01/) |
 | 第二周 | 单特征线性回归、NumPy 梯度下降与模型评价 | [week02](week02/) |
 | 第三周 | 多特征线性回归与 Ridge 正则化对照 | [week03](week03/) |
+| 第四周 | PCA 降维回归对照与 K-means 无监督聚类 | [week04](week04/) |
 
 ## 获取代码
 
