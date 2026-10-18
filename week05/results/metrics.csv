@@ -1,0 +1,5 @@
+﻿model,display_name,learning_rate,best_epoch,train_MAE,train_RMSE,validation_MAE,validation_RMSE,test_MAE,test_RMSE,selected_mlp,target_scale,note
+mean_baseline,Mean baseline,,,64.656518,77.330772,67.516166,76.161364,66.728853,76.905701,,original,固定预测 = 训练目标均值 151.026
+linear_regression,Linear regression,,,44.287357,54.28493,38.221274,49.149692,46.724017,56.970268,,original,10 个标准化特征，原始目标
+sgd_mlp,MLP + SGD,0.01,167,40.691912,50.65901,38.031028,50.466462,,,,original,最佳轮次参数；隐藏层宽度 16
+adam_mlp,MLP + Adam,0.001,88,40.649497,50.710644,38.220119,49.863141,46.15225,55.900693,yes,original,最佳轮次参数；隐藏层宽度 16
