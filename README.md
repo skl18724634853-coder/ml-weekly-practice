@@ -9,6 +9,7 @@
 | 第三周 | 多特征线性回归与 Ridge 正则化对照 | [week03](week03/) |
 | 第四周 | PCA 降维回归对照与 K-means 无监督聚类 | [week04](week04/) |
 | 第五周 | MLP 与 PyTorch 训练基础（前向、反传、优化器、小批量训练） | [week05](week05/) |
+| 第六周 | ETTh1 序列窗口、单步油温预测基线与 Ridge 调参 | [week06](week06/) |
 
 ## 获取代码
 
@@ -17,5 +18,5 @@ git clone https://github.com/skl18724634853-coder/ml-weekly-practice.git
 cd ml-weekly-practice
 ```
 
-按对应周次 README 安装依赖并运行。数据来自 scikit-learn 内置 diabetes 数据集，无需私人数据或本机绝对路径。
+按对应周次 README 安装依赖并运行。第一至五周使用 scikit-learn 内置 diabetes 数据集；第六周使用仓库中 `week06/data/ETTh1.csv` 的公开 ETTh1 数据，不使用私人数据或本机绝对路径。
 已有本地仓库时，用 `git pull --ff-only` 获取远程更新。
